@@ -44,3 +44,17 @@ function textToNumbers(array) {
         li.textContent = num;
         list.appendChild(li);
     });
+
+// task 1c) //
+
+function SumOfPairs(numbers) {
+    const list = document.getElementById("mylist");
+    for (let i = 0; i < numbers.length - 1; i++) {
+        const sum = numbers[i] + numbers[i+1];
+        const item = document.createElement("li");
+        item.textContent = numbers[i] + "+" + numbers[i+1] + "=" + sum;
+        list.appendChild(item);
+    }
+    SumOfPairs[1, 2, 3, 4, 5, 6]
+}
+
