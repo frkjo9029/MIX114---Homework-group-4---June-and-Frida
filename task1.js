@@ -56,5 +56,5 @@ function SumOfPairs(numbers) {
         list.appendChild(item);
     }
 }
-SumOfPairs[1, 2, 3, 4, 5, 6]
+SumOfPairs([1, 2, 3, 4, 5, 6]);
 
