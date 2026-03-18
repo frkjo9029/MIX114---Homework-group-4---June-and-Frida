@@ -28,3 +28,19 @@ function runSplit() {
         list.appendChild(li);
     }
 }
+
+// task 1b) //
+
+function textToNumbers(array) {
+    return array.map(Number);
+}
+    let textnumber = ["1.2", "-3.4", "5.6"];
+    let numbers = textToNumbers(textnumber);
+    console.log(numbers)
+
+    let list = document.getElementById("numberlist");
+    numbers.forEach(num => {
+        let li = document.createElement("li");
+        li.textContent = num;
+        list.appendChild(li);
+    });
